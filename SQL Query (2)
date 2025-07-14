@@ -1,0 +1,21 @@
+#SQL Query (2)
+
+Actually if we want a quick summary of the LPSUBSFLAG and total counts
+
+With results set
+
+SELECT
+    LPSUBSFLAG,
+    (ORDER_DATE_EST = ACCOUNT_CREATED_DATE_EST) AS dates_match,
+    COUNT(*) AS total_count
+FROM
+    DB_DBTDEV.DBT_LKHATRI.SUBSCRIPTION__FCT_ORDERS_BY_OPIN_PARTNERS
+WHERE
+    COUNTRY_NAME = 'PHILIPPINES'
+    AND OPIN_PARTNER = 'SMART'
+GROUP BY
+    LPSUBSFLAG,
+    dates_match
+ORDER BY
+    LPSUBSFLAG,
+    dates_match DESC;
