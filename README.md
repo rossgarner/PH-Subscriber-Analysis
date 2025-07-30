@@ -45,3 +45,31 @@ Now we can already see that most of the subscribers generated from our LP partne
 
 Next with the data exported, we shall continue our analysis in Pyhton to see what we can determine
 
+After cleaning the data we can start to perform some EDA
+
+<img width="1057" height="643" alt="image" src="https://github.com/user-attachments/assets/43ebf467-8123-4079-b1ac-52f7b9c8a2c2" />
+
+Straight away we can see the issue of prior subs vs new subs being generated from this distribution partnership with around 70% of users being prior subs
+
+<img width="1184" height="409" alt="image" src="https://github.com/user-attachments/assets/49cea11d-977b-4a70-9cf4-2d471b9ef6ab" />
+
+Next we can explore that trend over the three fiscal years we have data for to determine if this sales channel is moving in the right direction or not
+
+<img width="1096" height="559" alt="image" src="https://github.com/user-attachments/assets/9757d6d3-1a36-40ca-bcd4-cf7567e4defa" />
+
+<img width="1145" height="702" alt="image" src="https://github.com/user-attachments/assets/89be80b1-fede-4b1a-99b7-85cca54bd191" />
+
+Probably easier if we visualize this in a line chart to see the trend over time more easily
+
+<img width="932" height="498" alt="image" src="https://github.com/user-attachments/assets/f3f9be57-0204-479a-9e2c-6baecfbc926c" />
+<img width="1074" height="722" alt="image" src="https://github.com/user-attachments/assets/bf415669-9732-413b-8b21-7817745e6a5b" />
+
+So we can see that whilst over the last 3 years 71% of subs acquired through this channel are prior subs, that trend is decreasing 
+
+The next step is to figure out purchase frequency over the years by subscribers and each suscriber type
+
+
+
+
+
+
